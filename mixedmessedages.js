@@ -34,4 +34,3 @@ const randomAstrology = () => {
 
 
 console.log(randomAstrology());
-console.log(randomAstrology());
