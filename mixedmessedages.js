@@ -25,10 +25,10 @@ const time = ['day', 'week', 'month', 'year', 'decade'];
 
 const randomAstrology = () => {
     let randomAstro = astrologySigns[Math.floor(Math.random() * 12)];
-    let sign = Object.keys(randomAstro)
+    let sign = Object.keys(randomAstro);
     let randomHoro = horoscopes[Math.floor(Math.random() * 11)];
     let randomTime = time[Math.floor(Math.random() * 5)];
-    return `The ${sign} astrology sign is born between ${randomAstro[sign]}. For the ${randomTime}, they ${randomHoro}.`
+    return `The ${sign} astrology sign is born between ${randomAstro[sign]}. For the ${randomTime}, they ${randomHoro}.`;
 }    
 
 
